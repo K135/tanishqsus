@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display&family=Poppins:wght@500;600&family=Roboto&display=swap');
+
+body {
+    background: linear-gradient(180deg, #F4F6F3 24.94%, #EAE4D0 100%);
+}
+
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+.bg_header {
+    background: #F2E9E9;
+}
+
+.navHeader {
+    height: 60px;
+}
+
+.rouded {
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    padding: 0px;
+    font-size: 12px;
+    top: -4px;
+    left: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.comman {
+    background-color: #fff;
+    padding: 5px 6px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.comman1 {
+    background-color: #fff;
+    padding: 5px 6px;
+    cursor: pointer;
+}
+
+.forminput {
+    outline: none;
+    border: none;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+ul i {
+    font-size: 10px;
+}
+
+a {
+    font-size: 10px;
+    padding: 1px;
+}
+
+.unorderclass {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.unorderclass li {
+    cursor: pointer;
+    color: #771;
+}
+
+.mainseccion {
+
+    /* max-width: 100%; */
+    width: 100%;
+    height: 500px;
+    background-image: url('imgs/hero.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.plink {
+    padding: 0;
+    margin: 0;
+}
+
+.plink a {
+    display: block;
+    font-size: 11px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #2C2A2A;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.plinktext {
+    display: block;
+    font-size: 11px;
+    /* text-decoration: none; */
+    /* margin-bottom: 10px; */
+    color: #2C2A2A;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.link {
+    padding: 2px 5px;
+    color: #9E5559;
+}
+
+.linkColor {
+    color: #9E5559;
+}
+
+.borders {
+    border: 1px solid red;
+}
+
+.colorc {
+    color: rgb(153, 153, 153);
+
+}
+
+.heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5vw;
+    color: #676666;
+}
+
+.bgcolor {
+    background: #E8E8E8CC;
+    color: #1F1F1F;
+    font-size: 16px;
+}
+
+
+
+.fontsize {
+    font-size: 100px;
+    color: rgb(3, 84, 3);
+}
+
+.iconcuxtom {
+    font-size: 100px;
+    color: #fff;
+    margin: 0;
+}
+
+.cardcolor {
+    background: rgba(37, 67, 48, 0.87)
+}
+
+.white {
+    color: #fff;
+}
+
+.margin {
+    margin-top: -20px;
+}
+
+
+.boderNone {
+    border: none;
+}
+
+.imgCenter {
+    position: absolute;
+    height: 300px;
+    top: -50px;
+    left: 110px;
+    padding-left: 10px;
+}
+
+.inClass {
+    height: 200px;
+    background-color: white;
+}
+
+.extraPadding {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.fontStyleinline
+{
+    font-size: 20px;
+    padding: 10px 0px;
+    line-height: 30px;
+}
+
+
+@media only screen and (max-width: 940px) {
+
+    
+    .fontsize {
+        font-size: 80px;
+        color: rgb(3, 84, 3);
+    }
+
+    .lineheightextra
+    {
+        line-height: 50px;
+        margin-left: -100px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+
+    .lineheightextra
+    {
+        line-height: 30px;
+        margin-left: 0px;
+    }
+    /*Small smartphones [325px -> 425px]*/
+    .imgCenter {
+
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .extraPadding {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .inClass {
+        height: auto;
+        background-color: white;
+    }
+
+    .fontsize {
+        font-size: 40px;
+        color: rgb(3, 84, 3);
+    }
+}
