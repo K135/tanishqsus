@@ -136,7 +136,7 @@ a {
 }
 
 .borders {
-    border: 1px solid rgb(253, 253, 253);
+    border: 1px solid red;
 }
 
 .colorc {
@@ -145,21 +145,22 @@ a {
 }
 
 .heading {
-    font-family: 'Playfair Display', serif;
     font-size: 5vw;
     color: #676666;
+    font-family: 'Playfair Display', serif;
+   
 }
 
 .bgcolor {
     background: #E8E8E8CC;
     color: #1F1F1F;
-    font-size: 1.12rem;
+    font-size: 16px;
 }
 
 
 
 .fontsize {
-    font-size: 100px;
+    font-size: 70px;
     color: rgb(3, 84, 3);
 }
 
@@ -196,7 +197,7 @@ a {
 
 .inClass {
     height: 200px;
-  
+
     background-color: white;
 }
 
@@ -204,29 +205,38 @@ a {
     padding-left: 90px;
     padding-right: 90px;
 }
-
-.fontStyleinline
-{
-    font-size: 1.12rem;
-    padding: 10px 0px;
-    line-height: 30px;
+.good{
+    color:#3F5A47
 }
+.fontStyleinline {
+    font-size: 1.5rem;
+    padding: 10px 0px;
+    line-height: 50px;
+}
+@media (min-width: 768px){
+.px-md-1 {
+    padding-right: 0.25rem!important;
+    padding-left: 5rem!important;
+}}
+@media (min-width: 1200px){
+.fs-3 {
+    font-size: 1.5rem!important;
+}}
 
 
 @media only screen and (max-width: 940px) {
 
-    
+
     .fontsize {
         font-size: 200px;
         color: rgb(3, 84, 3);
     }
 
-    .lineheightextra
-    {
+    .lineheightextra {
         line-height: 50px;
     }
 
-    
+
 }
 
 
@@ -240,27 +250,27 @@ a {
         color: rgb(3, 84, 3);
     }
 
-    .fontStyleinline
-    {
-        font-size: 20px;
-           /* padding-left: 50px; */
+    .fontStyleinline {
+        font-size: 25px;
+        /* padding-left: 50px; */
     }
 }
 
 
 
-    @media only screen and (max-width: 750px) {
+@media only screen and (max-width: 750px) {
 
-    .lineheightextra
-    {
+    .lineheightextra {
         line-height: 30px;
         margin-left: 0px;
     }
+   
+
     /*Small smartphones [325px -> 425px]*/
     .imgCenter {
 
         position: relative;
-        top:    -150px;
+        top: -150px;
         left: 0px;
     }
 
@@ -274,29 +284,67 @@ a {
         height: auto;
         background-color: white;
     }
-.marginextra
-{
-    margin-top: -150px;
-}
+
+    .marginextra {
+        margin-top: -150px;
+    }
+
     .fontsize {
         font-size: 40px;
         color: rgb(3, 84, 3);
     }
-  
+}
+.h5, h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.w-50 {
+    width: 20%!important;
+}
+@media only screen and (max-width: 700px) {
+    
+    .heading{
+        font-size: 12vw;
+    }
+    .p-2{
+        font-size: 14px;
+    }
+    .card{
+        margin-top: 2rem;
+    }
+    .h4{
+        font-size: 2rem;
+    }
+    .card-title{
+        font-size: 1.5rem;
+    }
+    .card-text{
+        font-size: 1rem;
+        
+    }
+    .white{
+    font-size: 1.3rem;
+    }
+}
+.fs-1 {
+    font-size: calc(1.375rem + 2vw)!important;
+}
+@media (max-width: 1023px){
+    .card-text br{
+    display: none;
+    }
+    .p-2 br{
+        display: none;
+        }
+        .extraPadding br{
+            display: none;
+            }
+            .p-5 br{
+                display: none;
+                }
 
-}
-@media (min-width: 576px)
-{
-.px-sm-5 {
-    padding-right: 9rem!important;
-    padding-left: 9rem!important;
-}
-}
-@media (min-width: 576px)
-{
+                .fs-1 {
+                    font-size: calc(1.375rem + 3.7vw)!important;
+                }
 
-.px-sm-5 {
-    padding-right: 8rem!important;
-    padding-left: 9rem!important;
-}
-}
+  }
