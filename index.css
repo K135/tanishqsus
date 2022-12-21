@@ -189,12 +189,13 @@ a {
     position: absolute;
     height: 300px;
     top: -50px;
-    left: 110px;
+    left: 8%;
     padding-left: 10px;
 }
 
 .inClass {
     height: 200px;
+  
     background-color: white;
 }
 
@@ -215,22 +216,39 @@ a {
 
     
     .fontsize {
-        font-size: 80px;
+        font-size: 200px;
         color: rgb(3, 84, 3);
     }
 
     .lineheightextra
     {
         line-height: 50px;
-        margin-left: -100px;
     }
+
+    
 }
 
 
 
 
 
-@media only screen and (max-width: 750px) {
+
+@media only screen and (max-width: 992px) {
+    .fontsize {
+        font-size: 50px;
+        color: rgb(3, 84, 3);
+    }
+
+    .fontStyleinline
+    {
+        font-size: 20px;
+           /* padding-left: 50px; */
+    }
+}
+
+
+
+    @media only screen and (max-width: 750px) {
 
     .lineheightextra
     {
@@ -241,7 +259,7 @@ a {
     .imgCenter {
 
         position: relative;
-        top: 0px;
+        top:    -150px;
         left: 0px;
     }
 
@@ -251,12 +269,20 @@ a {
     }
 
     .inClass {
+        margin-top: 100px;
         height: auto;
         background-color: white;
     }
-
+.marginextra
+{
+    margin-top: -150px;
+}
     .fontsize {
         font-size: 40px;
         color: rgb(3, 84, 3);
     }
 }
+
+
+
+
