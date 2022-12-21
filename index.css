@@ -6,6 +6,7 @@ body {
 
 * {
     font-family: 'Playfair Display', serif;
+    font-size: 1.12rem;
 }
 
 .bg_header {
@@ -135,7 +136,7 @@ a {
 }
 
 .borders {
-    border: 1px solid red;
+    border: 1px solid rgb(253, 253, 253);
 }
 
 .colorc {
@@ -144,7 +145,7 @@ a {
 }
 
 .heading {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 5vw;
     color: #676666;
 }
@@ -152,7 +153,7 @@ a {
 .bgcolor {
     background: #E8E8E8CC;
     color: #1F1F1F;
-    font-size: 16px;
+    font-size: 1.12rem;
 }
 
 
@@ -206,7 +207,7 @@ a {
 
 .fontStyleinline
 {
-    font-size: 20px;
+    font-size: 1.12rem;
     padding: 10px 0px;
     line-height: 30px;
 }
@@ -281,8 +282,21 @@ a {
         font-size: 40px;
         color: rgb(3, 84, 3);
     }
+  
+
 }
+@media (min-width: 576px)
+{
+.px-sm-5 {
+    padding-right: 9rem!important;
+    padding-left: 9rem!important;
+}
+}
+@media (min-width: 576px)
+{
 
-
-
-
+.px-sm-5 {
+    padding-right: 8rem!important;
+    padding-left: 9rem!important;
+}
+}
